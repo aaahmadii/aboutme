@@ -216,6 +216,8 @@ img {
 .home__blob {
   fill: var(--first-color);
     transform: translate(20px, 10px); /* جابه‌جایی داخل محور X و Y */
+    width: 250px;
+    height: auto;
 }
 }
 
