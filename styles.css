@@ -216,15 +216,17 @@ img {
 @media screen and (max-width: 768px) {
   .home__blob {
     width: 180px;
-    transform: translate(0px, 0px);
+    transform: translateY(-10px); /* بالا بردن دایره */
+    background-color: transparent; /* حذف رنگ سیاه زمینه */
+  }
+
+  .home__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
   }
 }
-
-
-  .home__blob-img {
-    transform: scale(0.8); /* تصویر داخل SVG کوچیک‌تر شه */
-  }
-
 
 /*BUTTONS*/
 .button {
