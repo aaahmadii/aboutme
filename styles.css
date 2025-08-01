@@ -213,18 +213,16 @@ img {
   bottom: 0;
   width: 260px;
 }
-.home__blob {
-  fill: var(--first-color);
-    transform: translate(20px, 10px); /* جابه‌جایی داخل محور X و Y */
-    width: 250px;
-    height: auto;
-}
-}
+@media screen and (max-width: 768px) {
+  .home__blob {
+    width: 180px;
+    transform: translate(10px, 0px); /* کمتر جابه‌جا شه تو موبایل */
+  }
 
-}
-.home__blob-img {
-  width: 360px;
-}
+  .home__blob-img {
+    transform: scale(0.8); /* تصویر داخل SVG کوچیک‌تر شه */
+  }
+
 
 /*BUTTONS*/
 .button {
