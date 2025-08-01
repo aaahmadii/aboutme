@@ -216,8 +216,10 @@ img {
 @media screen and (max-width: 768px) {
   .home__blob {
     width: 180px;
-    transform: translate(10px, 0px); /* کمتر جابه‌جا شه تو موبایل */
+    transform: translate(0px, 0px);
   }
+}
+
 
   .home__blob-img {
     transform: scale(0.8); /* تصویر داخل SVG کوچیک‌تر شه */
