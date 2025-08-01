@@ -213,14 +213,20 @@ img {
   bottom: 0;
   width: 260px;
 }
-.home__blob {
-  fill: var(--first-color);
+@media screen and (max-width: 768px) {
   .home__blob {
-    transform: translate(20px, 10px); /* جابه‌جایی داخل محور X و Y */
+    width: 180px;
+    transform: translateY(-10px); /* بالا بردن دایره */
+    background-color: transparent; /* حذف رنگ سیاه زمینه */
+  }
+
+  .home__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
 }
-}
-.home__blob-img {
-  width: 360px;
 
 /*BUTTONS*/
 .button {
