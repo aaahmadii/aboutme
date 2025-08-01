@@ -213,14 +213,14 @@ img {
   bottom: 0;
   width: 260px;
 }
-}
 .home__blob {
   fill: var(--first-color);
+  .home__blob {
+    transform: translate(20px, 10px); /* جابه‌جایی داخل محور X و Y */
+}
 }
 .home__blob-img {
   width: 360px;
-}
-}
 
 /*BUTTONS*/
 .button {
