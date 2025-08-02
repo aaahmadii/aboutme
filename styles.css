@@ -213,12 +213,14 @@ img {
   bottom: 0;
   width: 260px;
 }
+
 @media screen and (max-width: 768px) {
   .home__blob {
-    width: 180px;
-    transform: translateY(-10px); /* بالا بردن دایره */
-    background-color: transparent; /* حذف رنگ سیاه زمینه */
+    width: 50vw;
+    transform: translateY(-20px);
   }
+}
+
 
   .home__img {
     display: flex;
