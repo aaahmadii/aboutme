@@ -214,20 +214,18 @@ img {
   width: 260px;
 }
 
-@media screen and (max-width: 768px) {
-  .home__blob {
-    width: 50vw;
-    transform: translateY(-20px);
-  }
+.home__img {
+    position: relative;   /* موقعیت کنترل‌شده */
+    width: 250px;         /* اندازه مناسب */
+    z-index: 1;           /* پایین‌تر از متن */
+    margin-top: 20px;     /* فاصله از عنوان */
 }
 
-
-  .home__img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-  }
+.home__blob {
+    width: 100%;
+    height: auto;
+    fill: hsl(var(--hue-color), 89%, 60%); /* رنگ آبی blob */
+    z-index: 0;           /* زیر متن و دکمه */
 }
 
 /*BUTTONS*/
