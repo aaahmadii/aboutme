@@ -222,11 +222,9 @@ img {
 }
 
 .home__blob {
-    width: 100%;
-    height: auto;
-    fill: hsl(var(--hue-color), 89%, 60%); /* رنگ آبی blob */
-    z-index: 0;           /* زیر متن و دکمه */
+  display: none !important;
 }
+
 
 /*BUTTONS*/
 .button {
